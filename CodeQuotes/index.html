@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Programming Quote Generator</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- <link rel="stylesheet" type="text/css" href="styles/normalize.css">-->
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" >
+  <link href="https://fonts.googleapis.com/css?family=Arimo:400,700|Didact+Gothic" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="styles/style.css">
+
+</head>
+
+<body>
+  <div class=content-wrapper>
+
+    <h1>Programming Quote Generator</h1>
+
+    <section id="quoteArea">
+      <p id="quoteText"></p>
+      <p id="quoteAuthor"><i></i></p>
+
+    </section>
+
+    <a href="#" id="twitter-link">
+      <button id="twitter-button" onclick="tweet.makeLink()">Tweet This Quote!</button>
+    </a>
+    <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+    <button class="shadow" onclick="randomQuote.getQuote()">Randomize</button>
+
+ 
+  </div>
+<div style="clear:both"></div>
+  <div class="footer-main">
+    
+      <footer>
+        <ul class="foot-list">
+          
+          <li class="footer_link">© 2017 Ailun Shen, Inc.
+          </li>
+          <li class="footer_link">
+            <a href="/privacy-policy">Privacy Policy</a>
+          </li>
+          <li class="footer_link">
+            <a href="/terms-use">Terms of Use</a>
+          </li>
+        </ul>
+        <div class="social-media-links">
+
+            <p>Credit to <a href="http://quotes.stormconsultancy.co.uk/" target="_blank">Programming Quotes API</a></p>
+
+        </div>
+      </footer>
+    
+      
+    </div>
+
+
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script type="text/javascript" src="js/script.js"></script>
+</body>
+</html>
