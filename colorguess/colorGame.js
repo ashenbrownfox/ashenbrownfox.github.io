@@ -8,6 +8,7 @@ var messageDisplay = document.querySelector("#message");
 var h1 = document.querySelector("h1");
 var resetButton = document.querySelector("#reset");
 var modeButtons = document.querySelectorAll(".mode");
+var RGBarray = [];
 
 init();
 
@@ -60,8 +61,8 @@ function reset(){
 	//generate all new colors
 	colors = generateRandomColors(numSquares);
 	pickedColor = pickColor();
-
-	colorDisplay.textContent = pickedColor;
+	
+	colorDisplay.textContent = pickedColor + " \n "+convertToHex(RGBarray[0],RGBarray[1],RGBarray[2]);
 
 	messageDisplay.textContent = "";
 	//change colors of squares
@@ -75,6 +76,7 @@ function reset(){
 	}
 	h1.style.background = "steelblue";
 	resetButton.textContent = "New Color";
+	RGBarray = [];
 }
 
 resetButton.addEventListener("click", function(){
@@ -93,6 +95,13 @@ function changeColors(color){
 
 function pickColor(){
 	var random = Math.floor(Math.random() * colors.length);
+	var temp = colors[random].split(',');
+	var red = temp[0].split('(')[1];
+	var green = temp[1];
+	var blue = temp[2].substring(0,temp[2].length-1);
+	RGBarray.push(red);
+	RGBarray.push(green);
+	RGBarray.push(blue);
 	return colors[random];
 }
 
@@ -113,4 +122,11 @@ function randomColor(){
 	var blue = Math.floor(Math.random() * 256);
 	var rgbstring = "rgb(" + red + ", " + green + ", " + blue + ")";
 	return rgbstring;
+}
+function componentToHex(c){
+	var hex = c.toString(16);
+    return hex.length == 1 ? "0" + hex : hex;
+}
+function convertToHex(r,g,b){
+	return "#" + componentToHex(r) + componentToHex(g) + componentToHex(b);
 }
