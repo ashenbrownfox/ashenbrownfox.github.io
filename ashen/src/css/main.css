@@ -1,4 +1,4 @@
-@import url("font-awesome.min.css");
+@import url("https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css");
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300italic,400,600");
 
 /*
@@ -2186,7 +2186,7 @@
 
 			#main > section.one {
 				background-color: #81918E;
-				background-image: url("../../images/top-bg2.jpg");
+				background-image: url("./images/top-bg2.jpg");
 			}
 
 			#main > section.two {
