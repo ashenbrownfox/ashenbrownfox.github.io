@@ -23,19 +23,19 @@ class Portfolio extends Component {
                 })*/}
                     <div className="4u 12u$(mobile)">
                         <article className="item">
-                            <a href="FizzBuzz/" className="image fit"><img src="images/pic02.jpg" alt="" /></a>
+                            <a href="FizzBuzz/" className="image fit"><img src={sample7} alt="" /></a>
                             <header>
                                 <h3>FizzBuzz!</h3>
                             </header>
                         </article>
                         <article className="item">
-                            <a href="MusicProject" className="image fit"><img src="images/pic03.jpg" alt="" /></a>
+                            <a href="MusicProject" className="image fit"><img src={sample7} alt="" /></a>
                             <header>
                                 <h3>Patatap Clone</h3>
                             </header>
                         </article>
                         <article className="item">
-                            <a href="/TicTacToe" className="image fit"><img src="images/pic06.jpg" alt="" /></a>
+                            <a href="/TicTacToe" className="image fit"><img src={sample7} alt="" /></a>
                             <header>
                                 <h3>TicTacToe</h3>
                             </header>
@@ -43,13 +43,13 @@ class Portfolio extends Component {
                     </div>
                     <div className="4u 12u$(mobile)">
                         <article className="item">
-                            <a href="/colorguess" className="image fit"><img src="images/pic04.jpg" alt="" /></a>
+                            <a href="/colorguess" className="image fit"><img src= {sample7} alt="" /></a>
                             <header>
                                 <h3>Guess Color</h3>
                             </header>
                         </article>
                         <article className="item">
-                            <a href="/Pokeball" className="image fit"><img src="images/pic05.jpg" alt="" /></a>
+                            <a href="/Pokeball" className="image fit"><img src= {sample7} alt="" /></a>
                             <header>
                                 <h3>Inspired by: <a href="http://codepen.io/jotavejv/pen/jJdnf">Pokeball  </a>
                                 <a href="http://codepen.io/jotavejv/pen/jJdnf">One</a>
@@ -57,7 +57,7 @@ class Portfolio extends Component {
                             </header>
                         </article>
                         <article className="item">
-                            <a href="/CodeQuotes" className="image fit"><img src="images/pic06.jpg" alt="" /></a>
+                            <a href="/CodeQuotes" className="image fit"><img src={sample7} alt="" /></a>
                             <header>
                                 <h3>Development Quotes</h3>
                             </header>
@@ -65,13 +65,13 @@ class Portfolio extends Component {
                     </div>
                     <div className="4u$ 12u$(mobile)">
                         <article className="item">
-                            <a href="https://salty-oasis-29940.herokuapp.com/" className="image fit"><img src="images/pic06.jpg" alt="" /></a>
+                            <a href="https://salty-oasis-29940.herokuapp.com/" className="image fit"><img src={sample7} alt="" /></a>
                             <header>
                                 <h3>EntrepreDev</h3>
                             </header>
                         </article>
                         <article className="item">
-                            <a href="https://ashenbrownfox.github.io/GitHubJobs/" className="image fit"><img src="images/pic07.jpg" alt="" /></a>
+                            <a href="https://ashenbrownfox.github.io/GitHubJobs/" className="image fit"><img src={sample7} alt="" /></a>
                             <header>
                                 <h3>Job Searching</h3>
                             </header>
@@ -79,7 +79,7 @@ class Portfolio extends Component {
                         </article>
 
                         <article className="item">
-                            <a href="/VirtualReality" className="image fit"><img src="images/pic07.jpg" alt="project6" /></a>
+                            <a href="/VirtualReality" className="image fit"><img src={sample7} alt="project6" /></a>
                             <header>
                                 <h3>3D Sphere, powered by AFrame</h3>
                             </header>
