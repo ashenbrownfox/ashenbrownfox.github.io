@@ -10,7 +10,8 @@ const Contact = () => {
         </header>
 
         <p>
-          Let's have a chat. Please feel free to reach out to me if you have any questions or comments about how I can help you. Also, feel free to just say hello.
+          Discover the dead simple email I use to help my clients sell more in 7 days than they had in a month.
+          Sign up and receive a PDF  with the email and a step step walkthrough.
         </p>
 
         <ul className="icons">

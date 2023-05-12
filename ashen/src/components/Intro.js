@@ -6,9 +6,9 @@ const Intro = () => {
       <div className="container">
         <header>
           <h2 className="alt">
-            Hi! I'm <strong>Ailun Shen</strong>, a Full Stack Software Engineer.
+            <strong>Ailun Shen</strong>, a Full Stack SWE & Marketing Specialist
           </h2>
-          <p>Scroll down below to learn more about me</p>
+          <p>Experience the difference the best words make</p>
         </header>
 
         <footer>
