@@ -4,7 +4,7 @@ import './css/main.css'
 import SideNavBar from './components/SideNavBar';
 import Footer from './components/Footer';
 import Intro from './components/Intro';
-import About from './components/AboutMe';
+import About from './components/About';
 import Tech from './components/Tech';
 import Contact from './components/Contact';
 import Portfolio from './components/Portfolio';
