@@ -1,22 +1,22 @@
-import React, {Component} from 'react';
+import React from 'react';
 
-class Intro extends Component {
-  render(){
-    return (
-        <section id="top" class="one dark cover">
-        <div class="container">
-            <header>
-                <h2 class="alt">Hi! I'm <strong>Ailun Shen</strong>, a Senior majoring in Computer Science at Western Michigan University. </h2>
-                <p>Scroll down below to learn more about me </p>
-            </header>
-        
-            <footer>
-                <a href="#about" class="button scrolly">Click to find out</a>
-            </footer>
-        
-        </div>
-        </section>
-    );
-  }
-}
+const Intro = () => {
+  return (
+    <section id="top" className="one dark cover">
+      <div className="container">
+        <header>
+          <h2 className="alt">
+            Hi! I'm <strong>Ailun Shen</strong>, a Full Stack Software Engineer.
+          </h2>
+          <p>Scroll down below to learn more about me</p>
+        </header>
+
+        <footer>
+          <a href="#about" className="button scrolly">Click to find out</a>
+        </footer>
+      </div>
+    </section>
+  );
+};
+
 export default Intro;
