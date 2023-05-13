@@ -1,16 +1,16 @@
 import React from 'react';
-import s1 from './../images/html.png';
+import s1 from './../images/javascript.png';
 import s2 from './../images/csharp.png';
-import s3 from './../images/bootstrap.png';
-import s4 from './../images/git.png';
-import s5 from './../images/javascript.png';
+import s3 from './../images/dnet.png';
+import s4 from './../images/react.png';
+import s5 from './../images/git.png';
 import s6 from './../images/java.png';
 import s7 from './../images/node.png';
 import s8 from './../images/php.png';
-import s9 from './../images/rails.png';
+import s9 from './../images/angular.png';
 import s10 from './../images/sql.png';
-import s11 from './../images/jquery.png';
-import s12 from './../images/DNET.jpg';
+import s11 from './../images/redis.svg';
+import s12 from './../images/aws.png';
 
 const skills = [
   { image: s1 },
@@ -32,7 +32,7 @@ const Tech = () => {
     <section id="skills" className="three">
       <div className="container skill-container">
         <header>
-          <h2>Technology Proficiency</h2>
+          <h2>Languages/Frameworks</h2>
           <div className="title-icon">
             <i className="fa fa-magic"></i>
           </div>
