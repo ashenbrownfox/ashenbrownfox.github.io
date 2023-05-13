@@ -5,7 +5,7 @@ const About = () => {
     <section id="about" className="two">
       <div className="container">
         <header>
-          <h2>VALUES</h2>
+          <h2>Values</h2>
         </header>
         <p>
           There's something to be said about working with people who genuinely love what they do. I’m no different. It all started when I found my passion in coding. Because I honestly enjoy coming to work every day to create something beautiful that has the ability to impact others.

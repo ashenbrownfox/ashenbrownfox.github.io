@@ -18,17 +18,16 @@ import p6 from './images/p6.jpg';
 import p7 from './images/p7.jpg';
 
 const App = () => {
-  {
     const projects = [
       {
         title: "FizzBuzz!",
         imageSrc: p1,
-        link: "FizzBuzz/",
+        link: "https://645fa7ea04596954b48526a7--regal-rugelach-04c811.netlify.app/",
       },
       {
         title: "Patatap Clone",
         imageSrc: p2,
-        link: "MusicProject",
+        link: "https://645fa63004596953ab85267e--incandescent-sprinkles-aa9824.netlify.app/",
       },
       {
         title: "Meme Gen",
@@ -43,17 +42,17 @@ const App = () => {
       {
         title: "Guess Color",
         imageSrc: p5,
-        link: "/colorguess",
+        link: "https://645fa82f00a471546617e168--effortless-cannoli-e070a1.netlify.app/",
       },
       {
         title: "Inspired by: Pokeball One",
         imageSrc: p6,
-        link: "/Pokeball",
+        link: "https://645fa8f915bb464dd5b5fbc3--effulgent-melba-fdc8ec.netlify.app/",
       },
       {
-        title: "Development Quotes",
+        title: "Tic-Tac-Toe",
         imageSrc: p7,
-        link: "/CodeQuotes",
+        link: "https://645fa93469629c549875c942--subtle-basbousa-c7868d.netlify.app/",
       },
       {
         title: "Webshop",
@@ -97,7 +96,6 @@ const App = () => {
       
       </div>
     );
-  }
 }
 
 export default App;

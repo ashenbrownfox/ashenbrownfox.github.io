@@ -3,7 +3,7 @@ import s1 from './../images/javascript.png';
 import s2 from './../images/csharp.png';
 import s3 from './../images/dnet.png';
 import s4 from './../images/react.png';
-import s5 from './../images/git.png';
+import s5 from './../images/py.png';
 import s6 from './../images/java.png';
 import s7 from './../images/node.png';
 import s8 from './../images/php.png';
