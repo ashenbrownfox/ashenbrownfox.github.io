@@ -26,6 +26,11 @@ const SideNavBar = () => {
                 </a>
               </li>
               <li>
+                <a href="#testimonials" id="testimonials-link" className="skel-layers-ignoreHref">
+                  <span className="icon fa-comment">Testimonials</span>
+                </a>
+              </li>
+              <li>
                 <a href="#skills" id="skills-link" className="skel-layers-ignoreHref">
                   <span className="icon fa-magic">Skills</span>
                 </a>
