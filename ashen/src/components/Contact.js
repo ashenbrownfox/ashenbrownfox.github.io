@@ -1,6 +1,27 @@
-import React from 'react';
+import React,  { useState } from 'react';
 
 const Contact = () => {
+  const [name, setName] = useState('');
+  const [email, setEmail] = useState('');
+
+  const handleNameChange = (event) => {
+    setName(event.target.value);
+  };
+
+  const handleEmailChange = (event) => {
+    setEmail(event.target.value);
+  };
+
+  const handleSubmit = (event) => {
+    event.preventDefault();
+    // Perform form submission or further processing here
+    console.log('Name:', name);
+    console.log('Email:', email);
+    // Reset the form fields
+    setName('');
+    setEmail('');
+  };
+
   return (
     <section id="contact" className="four">
       <div className="container">
@@ -11,8 +32,18 @@ const Contact = () => {
 
         <p>
           Discover the dead simple email I use to help my clients sell more in 7 days than they had in a month.
-          Sign up and receive a PDF  with the email and a step step walkthrough.
+          Sign up for free and receive free advice on how to make money and improve your business.
         </p>
+
+        <form onSubmit={handleSubmit}>
+          <div style={{ marginBottom: '1rem' }}>
+            <input type="text" placeholder="Name" id="name" value={name} onChange={handleNameChange} required />
+          </div>
+          <div style={{ marginBottom: '1rem' }}>
+            <input type="email" placeholder="Email" id="email" value={email} onChange={handleEmailChange} required />
+          </div>
+          <button type="submit" style={{ width: '100%', height: '4rem', marginBottom: '1rem' }}>Sign up</button>
+        </form>
 
         <ul className="icons">
           <li>
