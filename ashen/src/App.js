@@ -5,6 +5,7 @@ import SideNavBar from './components/SideNavBar';
 import Footer from './components/Footer';
 import Intro from './components/Intro';
 import About from './components/About';
+import Testimonials from './components/Testimonials';
 import Tech from './components/Tech';
 import Contact from './components/Contact';
 import Portfolio from './components/Portfolio';
@@ -87,6 +88,7 @@ const App = () => {
         <div id="main">
         <Intro />
         <About/>
+        <Testimonials/>
           <Tech/>
           <Portfolio projects={projects}/>
           <Contact/>       
