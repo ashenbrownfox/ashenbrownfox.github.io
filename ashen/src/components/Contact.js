@@ -3,6 +3,7 @@ import React,  { useState } from 'react';
 const Contact = () => {
   const [name, setName] = useState('');
   const [email, setEmail] = useState('');
+  const [isSubmitted, setIsSubmitted] = useState(false);
 
   const handleNameChange = (event) => {
     setName(event.target.value);
@@ -17,6 +18,7 @@ const Contact = () => {
     // Perform form submission or further processing here
     console.log('Name:', name);
     console.log('Email:', email);
+    setIsSubmitted(true);
     // Reset the form fields
     setName('');
     setEmail('');
@@ -43,6 +45,7 @@ const Contact = () => {
             <input type="email" placeholder="Email" id="email" value={email} onChange={handleEmailChange} required />
           </div>
           <button type="submit" style={{ width: '100%', height: '4rem', marginBottom: '1rem' }}>Sign up</button>
+          {isSubmitted && <p>Thank you for signing up! Stay tuned!</p>}
         </form>
 
         <ul className="icons">
