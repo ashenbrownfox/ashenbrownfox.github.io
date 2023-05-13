@@ -1,2 +1,0 @@
-# ashenbrownfox.github.io
-personal
